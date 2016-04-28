@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+#mainDiv{
+    width: 100%;
+    height : 100% ;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid red;
+}
+
+
+#innerDiv{
+    width: 100%;
+    height : 100% ;
+    border: 1px solid green;
+display: flex;
+
+}
+
+.leftDiv{
+    width: 50%;
+    float: left;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightDiv{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+#firstButton {
+	width: 200px;
+	height: 200px;
+	background: #ccc;
+	cursor: pointer;
+}
